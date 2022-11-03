@@ -5,13 +5,11 @@ add_btn.addEventListener("click", addTodo);
 const edit_btn = document.getElementById("Edit");
 edit_btn.addEventListener("click", editTodo);
 
-const editTodo = document.getElementById
+const editTodo = document.getElementById("edit_btn");
+editTodo.addEventListener("click", editTodo);
 
 const delete_btn = document.getElementById("Delete");
 delete_btn.addEventListener("click", deleteTodo);
-
-
-
 
 
 const li = document.querySelector("#todo_input")
