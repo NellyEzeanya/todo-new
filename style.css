@@ -29,7 +29,7 @@ color: #fff;
     text-decoration:none;
     color: #FB9B2A;
     font-weight: bold;
-    text-style
+    
 
 }
 
@@ -41,10 +41,10 @@ color: #fff;
 }
 
 #form, .todo_input {
-    margin-left: 500px;
     margin-top: 20px;
     min-width: 30px;
     height: 40px;
+    padding-left: 1px;
 }
 
 .form_input {
