@@ -17,29 +17,20 @@
   <body>
     <main>
       <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__list-items">
-            <a class="logo" href="./">Neliano's Todo</a> 
-          </li>
-          <li class="navigation__list-items">About</li>
-          <li class="navigation__list-items">Menu</li>
-          <li class="navigation__list-items">Contact</li>
-        </ul>
+        <h2>Nelly's Todo App</h2>
       </nav>
-
-
       <section class="todo__section">
-        <h2  class="todo__section-heading">Weekly Todo's</h2>
 
         <form id="form" class="form">
-          <input required id="todo_input" class="form_input" type="text" />
-          <button class="add_btn" id="Add">Add</button>          
+          <input required id="todo_input" name="form_input" class="form_input" type="text" placeholder="What have you planned?" />
+          <button class="add_btn" id="Add" type="submit">Add</button>          
         </form>
 
+        <h3 class="task_title">Task</h3>
         <ul id="todo__list">
           <!-- this is where our todo should live -->
-          <button id="Edit" type="button" class="edit_btn">Edit</button>
-          <button id="Delete" type="button" class="delete_btn">Delete</button>
+          <!-- <button id="Edit" type="button" class="edit_btn">Edit</button>
+          <button id="Delete" type="button" class="delete_btn">Delete</button> -->
         </ul>
 
         
@@ -47,6 +38,5 @@
 
     </main>
     <script src="./script.js"></script>
-    <script src="./app.js"></script>
   </body>
 </html>
